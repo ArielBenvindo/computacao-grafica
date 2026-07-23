@@ -8,6 +8,12 @@ g++ ex45_img1.cpp -framework OpenGL -framework GLUT -o img1 && ./img1
 g++ ex45_img2.cpp -framework OpenGL -framework GLUT -o img2 && ./img2
 g++ ex45_img3.cpp -framework OpenGL -framework GLUT -o img3 && ./img3
 
+g++ -Wno-deprecated-declarations questao1_casa.cpp -o questao1 -framework GLUT -framework OpenGL -framework Cocoa
+./questao1
+
+g++ -Wno-deprecated-declarations questao2_mouse.cpp -o questao2 -framework GLUT -framework OpenGL -framework Cocoa
+./questao2
+
 Linux:
 
 g++ tarefa_casa.cpp -lGL -lGLUT -o casa && ./casa
